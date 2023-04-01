@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Toolbar,Button, AppBar, Grid } from '@mui/material';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar position="static">
+        <Toolbar>
+          <Button color="inherit">Login</Button>
+        </Toolbar>
+      </AppBar>
+      <iframe src="http://localhost:3000/d-solo/MMOZx0xVk/gauge?orgId=1&panelId=4" width="450" height="200" title='Graph' frameborder="0"/>
     </div>
+    
   );
 }
 
