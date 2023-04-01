@@ -187,7 +187,7 @@ function DashboardContent() {
                     height: 400,
                   }}
                 >
-                  <Chart link="http://localhost:3000/d-solo/MMOZx0xVk/gauge?orgId=1&panelId=4&theme=light" title="Frequency" />
+                  <Chart link="http://localhost:3000/d-solo/MMOZx0xVk/gauge?orgId=1&panelId=4&from=now-5m&to=now&theme=light" title="Frequency" />
                 </Paper>
               </Grid>
               {/* Recent Deposits */}
@@ -200,7 +200,7 @@ function DashboardContent() {
                     height: 400,
                   }}
                 >
-                  <Chart link="http://localhost:3000/d-solo/MMOZx0xVk/gauge?orgId=1&panelId=4&theme=light" title="Frequency" />
+                  <Chart link="http://localhost:3000/d-solo/7eQ7_1T4k/new-dashboard?orgId=1&panelId=6&theme=light" title="Phase Angle" />
                 </Paper>
               </Grid>
               <Grid item xs={12} md={6} lg={6}>
@@ -212,15 +212,15 @@ function DashboardContent() {
                     height: 400,
                   }}
                 >
-                  <Chart link="http://localhost:3000/d-solo/MMOZx0xVk/gauge?orgId=1&panelId=4&theme=light" title="Frequency" />
+                  <Chart link="http://localhost:3000/d-solo/7eQ7_1T4k/new-dashboard?orgId=1&theme=light&panelId=4" title="Geo - Frequency" />
                 </Paper>
               </Grid>
               {/* Recent Orders */}
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
                   <Orders />
                 </Paper>
-              </Grid>
+              </Grid> */}
             </Grid>
             <Copyright sx={{ pt: 4 }} />
           </Container>
